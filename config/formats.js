@@ -5,7 +5,20 @@
 
 /**@type {(FormatsData | {section: string, column?: number})[]} */
 let Formats = [
+	// Akemon modded
+	{
+		section: "Sw/Sh Singles",
+	},
+	{
+		name: "Akemon",
+		desc: `akemon custom battle, in single.`,
+		threads: [
+			`&bullet; <a href="https://www.smogon.com/forums/threads/3656537/">Random Battle Suggestions</a>`,
+		],
 
+		mod: 'akemon',
+		ruleset: ['PotD', 'Obtainable', 'Species Clause', 'HP Percentage Mod', 'Cancel Mod'],
+	},
 	// Sw/Sh Singles
 	///////////////////////////////////////////////////////////////////
 

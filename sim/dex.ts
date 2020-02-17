@@ -610,6 +610,7 @@ export class ModdedDex {
 		} else {
 			effect = new Data.Format({id, name, exists: false});
 		}
+		console.log(effect);
 		return effect;
 	}
 
