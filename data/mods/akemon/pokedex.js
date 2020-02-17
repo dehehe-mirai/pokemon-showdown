@@ -26,5 +26,5 @@ exports.BattlePokedex = {
 		color: "Green",
 		evos: ["ivysaur"],
 		eggGroups: ["Undiscovered"],
-	}
+	},
 };
